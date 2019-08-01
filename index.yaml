@@ -1,0 +1,35 @@
+apiVersion: v1
+entries:
+  cassandra:
+  - apiVersion: v1
+    appVersion: 3.11.3
+    created: "2019-08-01T10:55:49.173876695+02:00"
+    description: Apache Cassandra is a free and open-source distributed database management
+      system designed to handle large amounts of data across many commodity servers,
+      providing high availability with no single point of failure.
+    digest: acb65035575ffe43604fc5019f6fd8f164330b184fc8630058b0320c2c472aec
+    home: http://cassandra.apache.org
+    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    keywords:
+    - cassandra
+    - database
+    - nosql
+    maintainers:
+    - email: goonohc@gmail.com
+      name: KongZ
+    name: cassandra
+    urls:
+    - cassandra-0.9.5.tgz
+    version: 0.9.5
+  internal-envoy:
+  - apiVersion: v1
+    appVersion: 1.8.0
+    created: "2019-08-01T10:55:49.174278822+02:00"
+    description: A Helm chart for installing envoy in kubernetes
+    digest: 290520b1bcb1591497682f27e002a48625136ec8fe9ad09d7b4af40cdd0290ad
+    name: internal-envoy
+    type: application
+    urls:
+    - internal-envoy-0.0.1.tgz
+    version: 0.0.1
+generated: "2019-08-01T10:55:49.172698037+02:00"
